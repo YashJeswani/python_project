@@ -3,7 +3,18 @@
 that is X-0 game.
 
  How to run it:
-   you can clone it and then run python3 filename.py and 
+   
+   you can clone it and then run the game file using command python3 filename.py and 
    then python file will get executed and 
    will ask to type X and 0 Alternate to 
    play game and Anyone of then can win,or game can be draw.
+
+2)Second python project is the guess the word from the list ie. guess_word.py 
+
+  How to run it:
+
+  You can clone it and then run the guess_word file using command python3 filename.py 
+  then python file get executed 
+  after it will first ask you limit how many chances you want
+  after every 3 chances it will show hints
+  if you guessed correct cord it shows congratulations and if not it will show the correct word randomly choosen.
