@@ -1,0 +1,170 @@
+    ***** command to install git ********
+yash@yash:~$ sudo apt-get install git
+         
+
+    *********configuration of git *******
+yash@yash:~$ git config --global user.name "YashJeswani"
+yash@yash:~$ git config --global user.email "yashjeswani2420@gmail.com
+
+   ********* Making readme file in folder and repo also*******
+yash@yash:~/python_Basic_projects$ echo "# python_project" >> README.md
+
+   ********* initiallizing empty git repo ************
+yash@yash:~/python_Basic_projects$ git init
+Initialized empty Git repository in /home/yash/python_Basic_projects/.git/
+
+
+   ********* adding files to repo  ************
+yash@yash:~/python_Basic_projects$ git add README.md
+
+yash@yash:~/python_Basic_projects$ git add game.py
+
+
+   ********* commiting changes that want in repo  ************
+yash@yash:~/python_Basic_projects$ git commit -m "first commit"
+
+
+   ********* A remote in Git is a common repository that all team members use to exchange their changes.************
+yash@yash:~/python_Basic_projects$ git remote add origin https://github.com/YashJeswani/python_project.git
+
+
+   ********* pushing the changes in repo************
+yash@yash:~/python_Basic_projects$ git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+yash@yash:~$ cd python_Basic_projects
+
+yash@yash:~/python_Basic_projects$ ls
+
+Tic_Tac_toe_game_python
+yash@yash:~/python_Basic_projects$ ls
+game.py
+yash@yash:~/python_Basic_projects$ echo "# python_project" >> README.md
+yash@yash:~/python_Basic_projects$ ls
+game.py  README.md
+
+
+yash@yash:~/python_Basic_projects$ git init
+Initialized empty Git repository in /home/yash/python_Basic_projects/.git/
+
+
+
+yash@yash:~/python_Basic_projects$ git add README.md
+
+yash@yash:~/python_Basic_projects$ git add game.py
+
+yash@yash:~/python_Basic_projects$ git commit -m "first commit"
+[master (root-commit) 95068ac] first commit
+ 2 files changed, 216 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 game.py
+
+yash@yash:~/python_Basic_projects$ git remote add origin https://github.com/YashJeswani/python_project.git
+
+
+yash@yash:~/python_Basic_projects$ git push -u origin master
+Username for 'https://github.com': YashJeswani
+Password for 'https://YashJeswani@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.73 KiB | 888.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/YashJeswani/python_project.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+yash@yash:~/python_Basic_projects$ ls
+game.py  README.md
+yash@yash:~/python_Basic_projects$ gedit README.md
+
+yash@yash:~/python_Basic_projects$ git add README.md
+
+yash@yash:~/python_Basic_projects$ git commit -m "Readme file changed"
+[master f8ae1d8] Readme file changed
+ 1 file changed, 7 insertions(+)
+
+
+
+yash@yash:~/python_Basic_projects$ git push -u origin master
+Username for 'https://github.com': YashJeswani
+Password for 'https://YashJeswani@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 477 bytes | 477.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/YashJeswani/python_project.git
+   95068ac..f8ae1d8  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
+yash@yash:~/python_Basic_projects$ git add guess_word.py
+
+yash@yash:~/python_Basic_projects$ git commit -m "Second project pushed"
+[master 3f50c7c] Second project pushed
+ 1 file changed, 62 insertions(+)
+ create mode 100644 guess_word.py
+
+yash@yash:~/python_Basic_projects$ git push -u origin master
+Username for 'https://github.com': YashJeswani
+Password for 'https://YashJeswani@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.07 KiB | 548.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/YashJeswani/python_project.git
+   0dceda7..3f50c7c  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+yash@yash:~/python_Basic_projects$ ls
+game.py  guess_word.py  README.md
+
+yash@yash:~/python_Basic_projects$ gedit README.md
+yash@yash:~/python_Basic_projects$ git add README.md
+
+yash@yash:~/python_Basic_projects$ git commit -m "Readme File changed"
+[master 928eef6] Readme File changed
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+yash@yash:~/python_Basic_projects$ git push -u origin master
+Username for 'https://github.com': YashJeswani   
+Password for 'https://YashJeswani@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 686 bytes | 686.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/YashJeswani/python_project.git
+   3f50c7c..928eef6  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+yash@yash:~/python_Basic_projects$ ls
+game.py  guess_word.py  README.md
+
